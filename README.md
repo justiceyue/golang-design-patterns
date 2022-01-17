@@ -15,4 +15,4 @@ Design patterns implemented in Golang(《Design Patterns》读书笔记--以 gol
 ### 迪米特原则:
 不要对外暴露不必要的公共方法，尽量使用私有方法。 
 ### 里氏替换原则:
-golang 中的接口类型很好的满足了里氏替换原则。
+子类型必须能够替换掉它们的父类型。
